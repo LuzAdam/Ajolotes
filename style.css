@@ -1,0 +1,43 @@
+body{
+    background-color: #aceefc;
+    color: rgb(8,8,8);
+    /*font-family: 'Kanit', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    }
+
+/*Comentarios*/
+/*Selector{
+    propiedad : valor*/
+p{
+    color: #840ab9;
+ }
+
+.titulo{ /*alinear el titulo y formato*/
+    color: #ee1b7e;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 60px;
+    }
+.menu{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 500px;/*ajustar tamaño imágenes, ancho y alto*/
+   /* height: 50px; */
+} 
+
+.axohappy{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px; /*esquinas redondeadas de las imágenes*/
+}
+
+a{
+    color: rgb(211, 18, 134);
+    text-decoration: dotted;
+}
